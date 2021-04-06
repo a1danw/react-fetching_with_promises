@@ -8,7 +8,7 @@ function WeatherApi() {
   useEffect(() => {
     axios
       .get(
-        `https://api.weatherapi.com/v1/current.json?key=${process.env.REACT_APP_WEATHER_API}&q=London`
+        `http://api.weatherapi.com/v1/current.json?key=${process.env.REACT_APP_WEATHER_API}&q=London`
       )
       //.then is a promise which will contain the data available if its able to retrieve it
       .then((data) => {
@@ -21,7 +21,7 @@ function WeatherApi() {
   const searchWeather = () => {
     axios
       .get(
-        `https://api.weatherapi.com/v1/current.json?key=${process.env.REACT_APP_WEATHER_API}&q=${input}`
+        `http://api.weatherapi.com/v1/current.json?key=${process.env.REACT_APP_WEATHER_API}&q=${input}`
       )
       .then((data) => {
         setWeather(data.data);
