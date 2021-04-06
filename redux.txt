@@ -1,0 +1,18 @@
+ACTION - 
+A function that returns what we want to do. Describes what we want to do.
+
+REDUCER -
+Looks at the action. Based on what the action is, it modifies the state.
+Place where you do the logic to what will happen to the state.
+
+DISPATCH - 
+Send action to the reducer. 
+
+useSelector - 
+extract anything from redux store. Gives us access to the full react store.
+
+useDispatch - 
+we use the dispatch every time we want to dispatch a specific action. 
+on click of a button, useEffect etc dispatch a specific action.
+
+
