@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/react-fetching_with_promises/static/js/main.61e57a16.chunk.js",
-    "main.js.map": "/react-fetching_with_promises/static/js/main.61e57a16.chunk.js.map",
+    "main.js": "/react-fetching_with_promises/static/js/main.e57ee27e.chunk.js",
+    "main.js.map": "/react-fetching_with_promises/static/js/main.e57ee27e.chunk.js.map",
     "runtime-main.js": "/react-fetching_with_promises/static/js/runtime-main.22edadea.js",
     "runtime-main.js.map": "/react-fetching_with_promises/static/js/runtime-main.22edadea.js.map",
     "static/js/2.36c26c3a.chunk.js": "/react-fetching_with_promises/static/js/2.36c26c3a.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.22edadea.js",
     "static/js/2.36c26c3a.chunk.js",
-    "static/js/main.61e57a16.chunk.js"
+    "static/js/main.e57ee27e.chunk.js"
   ]
 }
